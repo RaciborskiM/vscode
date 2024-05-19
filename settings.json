@@ -1,0 +1,110 @@
+{
+  "editor.minimap.enabled": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.compositeKeys": {
+    "jk": {
+      "command": "vscode-neovim.lua",
+      "args": [
+        "vim.api.nvim_input('<ESC>')\nrequire('vscode-neovim').action('workbench.action.files.save')"
+      ]
+    }
+  },
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "extensions.supportUntrustedWorkspaces": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.colorCustomizations": {
+    "editorSuggestWidget.selectedBackground": "#231739",
+    // "sideBar.background": "#140E1A",
+    "list.activeSelectionBackground": "#231739",
+    "list.inactiveSelectionBackground": "#231739",
+    "list.focusBackground": "#231739",
+    "list.hoverBackground": "#231739"
+    // "terminalCursor.foreground": "#C45DFF"
+  },
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  // "editor.matchBrackets": "never"
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": false,
+  // "editor.showFoldingControls": "never"
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  // "editor.tabSize": 2,
+  // "editor.detectIndentation": false
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  // "editor.lineHeight": 2.5
+  "breadcrumbs.enabled": false,
+  // "explorer.confirmDragAndDrop": false
+  // "explorer.confirmDelete": false
+  "explorer.compactFolders": false,
+  // "git.decorations.enabled": false
+  // "scm.diffDecorations": "none"
+  "files.insertFinalNewline": true,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "terminal.external.windowsExec": "\"C:\\Users\\enviu\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  // "terminal.integrated.tabs.enabled": false
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.fontSize": 14,
+  // "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hidden"
+    // "opacity": 0.85
+  },
+  "apc.font.family": "JetBrainsMono Nerd Font Mono",
+  // "apc.menubar.compact": true,
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 30,
+    "itemSize": 30
+    // "itemMargin": 10
+  },
+  "apc.header": {
+    "height": 30
+  },
+  "apc.sidebar.titlebar": {
+    "height": 30,
+    "fontSize": 12
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    // "position": "editor-top",
+    "height": 20,
+    "fontSize": 10
+  },
+  "apc.listRow": {
+    "lists": ["explorer-folders-view", "quick-input-list", "results"],
+    "height": 30
+    // "fontSize": 12
+  },
+  "apc.stylesheet": {
+    ".title-actions": "display: none !important",
+    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-s>adow: none !important",
+    ".filematch .monaco-icon-label:before .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+    ".sidebar .title-label": "padding:0 !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline:none !important",
+    ".sidebar": "border: none !important",
+    // ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
+    ".quick-input-list-row div": "display: flex !important; align-items: center !important"
+  }
+}
